@@ -16,5 +16,7 @@ $ atop -P NET,MEM,CPU,cpu | \
 External Tools
 ===============
 [1] Atop official site: http://www.atoptool.nl/
+
 [2] Graphite official site: https://graphiteapp.org/
+
 [3] Grafana official site: http://grafana.org/
