@@ -1,6 +1,6 @@
-This repository provides a collection of scripts aiming at allowing to extract raw counters from atop [1], 
-aggregate them to generate high level metrics, which are then injected into a Graphite database in order 
-to be easily visualized through the Graphite [2] Web UI, or even better, through Grafana [3], the widely-used 
+This repository provides a collection of scripts that enable to extract raw counters from atop [1], 
+aggregate them to generate high level performance metrics, which are then injected into a Graphite [2] database 
+to be finally visualized through the Graphite Web UI, or even better, through Grafana [3], the widely-used 
 and popular open source visualization tool.
 
 Easy-to-use
