@@ -48,3 +48,15 @@ You can also use Grafana for the visualization by proceeding as follows:
 * If not yet the case, configure your Graphite installation as data source.
 * Download and import [this dashboard template](https://grafana.com/dashboards/465) which is already configured to enable the visualization of the collected metrics out-of-the-box.
 * Open the dashboard and enjoy!
+
+# Copyrights
+This project bas been initiated by Rodrigue Chakode, who also created [RealOpInsight](http://realopinsight.com).
+
+The software is licensed under the terms of Apache 2.0 License.
+
+Please note that Graphite and Grafana are third-party systems with their respective licenses and terms of use.
+
+# Contributions
+Contributions are welcome!
+
+To contribute bug patches or new features, you can use the Github Pull Request model. It is assumed that code and documentation are contributed under the Apache License 2.0.
