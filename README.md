@@ -21,7 +21,7 @@ $ atop -P NET,MEM,CPU,cpu | \
        push_graphite_formatted_data_live.py
 ```
 
-Currently collected counters are related to network, memory and CPU are resources and the aggregated metrics concerned are:
+Currently collected counters are related to network, memory and CPU are resources and the aggregated metrics are:
 * CPU Usage: system-wide and per core.
 * Memory Usage: system-wide.
 * Network Bandwidth: send/receive, system-wide and per interface.  
