@@ -21,6 +21,12 @@ $ atop -P NET,MEM,CPU,cpu | \
        push_graphite_formatted_data_live.py
 ```
 
+Currently collected counters are related to network, memory and CPU are resources and the aggregated metrics concerned are:
+* CPU Usage: system-wide and per core.
+* Memory Usage: system-wide.
+* Network Bandwidth: send/receive, system-wide and per interface.  
+* Network Packets: send/receive, system-wide and per interface. 
+
 By default atop counters are collected every second.
 You can change this interval by setting the environment variable ` ATOP_UPDATE_INTERVAL5 ` with another duration in seconds. 
 
