@@ -17,14 +17,28 @@ You will need to have:
 Log in to the machine where you want to collect performance metrics and run the following command:
 ```
 $ atop -P NET,MEM,CPU,cpu | \
-	collect_atop_counters.sh | \
-	push_graphite_formatted_data_live.py
+       collect_atop_counters.sh | \
+       push_graphite_formatted_data_live.py
 ```
 
-Then to the visualization to watch colllected metrics.
+By default atop counters are collected every second.
+You can change this interval by setting the environment variable ` ATOP_UPDATE_INTERVAL5 ` with another duration in seconds. 
 
-# Visualize Dashboard
+For example to change the interval to 5 seconds, you can use the following command:
+```
+$ ATOP_UPDATE_INTERVAL=5 \
+       atop -P NET,MEM,CPU,cpu | \
+       collect_atop_counters.sh | \
+       push_graphite_formatted_data_live.py
+```
+
+Then go to the next step to learn who to visualize collected metrics.
+
+# Dashboard & Metric Visualization
+The collected metrics can be visualized through Graphite Web UI out-of-the-box. 
+
+You can also use Grafana for the visualization by proceeding as follows:
 * Log into Grafana
 * If not yet the case, configure your Graphite installation as data source.
-* If not yet the case, import [this dashboard template](https://grafana.com/dashboards/465) which is already configured to enable the visualization of the collected metrics out-of-the-box.
+* Download and import [this dashboard template](https://grafana.com/dashboards/465) which is already configured to enable the visualization of the collected metrics out-of-the-box.
 * Open the dashboard and enjoy!
