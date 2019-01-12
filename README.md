@@ -11,7 +11,7 @@ You will need to have:
   And specifically, the Carbon Cache Daemon (carbon-cache.py) should be reachable through the following environement variables:
   * `CARBON_CACHE_SERVER`: should be set with the IP address or the hostname of the server hosting Carbon Cache.
   * `CARBON_CACHE_PICKLE_PORT`: should be set with the port of the pickle receiver of Carbon Cache.
-* A working Grafana installation, if you want to use Grafana instead of the native Graphine UI.
+* A working Grafana installation, if you want to use Grafana instead of the native Graphine UI, for the visualization
 
 # Getting Started Collecting Metrics
 Log in to the machine where you want to collect performance metrics and run the following command:
