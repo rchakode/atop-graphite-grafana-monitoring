@@ -58,5 +58,5 @@ Please note that Graphite and Grafana are third-party systems with their respect
 
 # Contributions
 Contributions are welcome!
-
-To contribute bug patches or new features, you can use the Github Pull Request model. It is assumed that code and documentation are contributed under the Apache License 2.0.
+* Give a feedback, report a problem, or give a star are good starting points to start contributing. 
+* You can also contribute bug patches or new features. In this case, please can use the Github Pull Request model. It is assumed that code and documentation are contributed under the Apache License 2.0.
