@@ -1,5 +1,5 @@
 # Overview
-This tool provides a collection of scripts that enable to extract raw counters from [atop](http://www.atoptool.nl/), 
+This toolset provides enables to extract raw counters from [atop](http://www.atoptool.nl/), 
 aggregate them to generate high level performance metrics, which are then injected into a [Graphite](https://graphiteapp.org/) database 
 to be finally visualized through the Graphite Web UI, or even better, through [Grafana](http://grafana.org/), the widely-used  open source visualization tool.
 
