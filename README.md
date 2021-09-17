@@ -28,7 +28,7 @@ Currently collected counters are related to network, memory and CPU are resource
 * Network Packets: send/receive, system-wide and per interface. 
 
 By default atop counters are collected every second.
-You can change this interval by setting the environment variable ` ATOP_UPDATE_INTERVAL5 ` with another duration in seconds. 
+You can change this interval by setting the environment variable `ATOP_UPDATE_INTERVAL` with another duration in seconds. 
 
 For example to change the interval to 5 seconds, you can use the following command:
 ```
